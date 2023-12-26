@@ -4,6 +4,7 @@
   - [Disassembly of a Master Boot Record(MBR)](#disassembly-of-a-master-boot-recordmbr)
   - [Reference code 1 of INT 19H and jmp 0x0000:0x7c00](#reference-code-1-of-int-19h-and-jmp-0x00000x7c00)
   - [Reference code 2 of INT 19H and jmp 0x0000:0x7c00](#reference-code-2-of-int-19h-and-jmp-0x00000x7c00)
+  - [How `db 0eah` and `dw 7c00h, 0` become `jmp 0x0000:0x7c00`](#how-db-0eah-and-dw-7c00h-0-become-jmp-0x00000x7c00)
 
 ## Disassembly of a Master Boot Record(MBR)
 
@@ -83,3 +84,7 @@ ipl:
     jne    .retry
     ret
 ```
+
+## How `db 0eah` and `dw 7c00h, 0` become `jmp 0x0000:0x7c00`
+
+* [Manually_Encode_Jmp_Instruction](https://github.com/linuslau/Tips-and-Tricks/blob/main/Assembly/Notes/001_Manually_Encode_Jmp_Instruction.md)
