@@ -10,5 +10,6 @@ A set of notes that explore how to write an Operating System (Kernel) from scrat
 
 1. [Why BIOS loads MBR into 0x7C00 in x86?](./Q&A/001_0x7C00/README.md)
 2. [How BIOS loads MBR into 0x7C00 in x86?](./Q&A/002_0x7C00_INT19H/README.md)
+3. [Where is the first instruction executed in x86 (0xFFFFFFF0)?](./Q&A/003_0xFFFFFFF0/README.md)
 
 ## Prerequisites
