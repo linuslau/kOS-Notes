@@ -1,6 +1,6 @@
-# How to print to screen with BIOS INT 10H?
+# How to print to screen with BIOS INT 10H (Real Mode)?
 
-- [How to print to screen with BIOS INT 10H?](#how-to-print-to-screen-with-bios-int-10h)
+- [How to print to screen with BIOS INT 10H (Real Mode)?](#how-to-print-to-screen-with-bios-int-10h-real-mode)
   - [In MSDOS as COM/EXE](#in-msdos-as-comexe)
     - [Code reference](#code-reference)
   - [In MBR as Bootloader](#in-mbr-as-bootloader)
